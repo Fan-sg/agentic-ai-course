@@ -14,6 +14,11 @@ def get_current_datetime() -> str:
     now = datetime.now()
     return now.strftime("%Y-%m-%d %H:%M:%S (%A)")
 
+# # register another tool
+# @mcp.tool()
+# def get_username() -> str:
+#     """Return the current user name."""
+#     return "Fan"
 
 if __name__ == "__main__":
     mcp.run(transport="stdio") #Local MCP server, transport mode is stdio

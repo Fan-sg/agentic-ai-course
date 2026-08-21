@@ -103,7 +103,8 @@ async def demo_agent():
 
         question = (
             "What is the current date and time? "
-            "What day of the week is it?"
+            "What day of the week is it? "
+            #"What is the user name?"
         )
 
         print(f"\nUser: {question}")
