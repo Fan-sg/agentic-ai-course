@@ -6,6 +6,8 @@ from agents import orchestrator, participant, summarizer
 def human_node(state: State) -> dict:
     """
     Human input node - gets user input and sets volley count.
+    The AI agents can speak up to 5 times after one user message。
+    
     """
     user_input = input("\nYou: ").strip()
 

@@ -21,6 +21,11 @@ Or via Homebrew on macOS:
 brew install uv
 ```
 
+Or via powershell
+'''powershell
+powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
+'''
+
 ### 2. Install dependencies
 
 ```bash
