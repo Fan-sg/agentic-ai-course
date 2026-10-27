@@ -5,7 +5,12 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "httpx>=0.28.1",
     "ipykernel>=7.1.0",
+    "matplotlib>=3.11.2",
+    "numpy>=2.5.3",
     "openai>=2.14.0",
+    "openai-agents>=0.22.3",
     "python-dotenv>=1.2.1",
+    "scikit-learn>=1.9.1",
 ]
